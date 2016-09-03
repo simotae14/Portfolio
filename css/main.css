@@ -7,6 +7,10 @@ a {
 	text-decoration: none;
 }
 
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
 /******************************* 
 HEADER
 ********************************/
@@ -24,10 +28,14 @@ header {
 
 h1 {
 	color: #ffffff;
+	font-family: 'Candal', sans-serif;
+	margin: 15px 0;
 }
 
 h2 {
 	color: #ffffff;
+	font-family: 'Candal', sans-serif;
+	margin: 15px 0 20px 0;
 }
 
 /******************************* 
