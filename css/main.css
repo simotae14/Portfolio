@@ -30,12 +30,14 @@ h1 {
 	color: #ffffff;
 	font-family: 'Candal', sans-serif;
 	margin: 15px 0;
+	font-size: 2.1em;
 }
 
 h2 {
 	color: #ffffff;
 	font-family: 'Candal', sans-serif;
 	margin: 15px 0 20px 0;
+	font-size: 1.4em;	
 }
 
 /******************************* 
@@ -68,4 +70,27 @@ nav a:hover {
 
 nav a.selected {
 	color: #27583F;	
+}
+
+/******************************* 
+SECTION
+********************************/
+
+#wrapper {
+	background-color: red;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5% 5px 5%;
+}
+
+
+/******************************* 
+FOOTER
+********************************/
+footer {
+	text-align: center;
+}
+
+footer p {
+	font-size: 0.85em;
 }
