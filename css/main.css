@@ -109,6 +109,7 @@ img {
 /******************************* 
 FOOTER
 ********************************/
+
 footer {
 	text-align: center;
 	clear: both;
@@ -119,7 +120,47 @@ footer p {
 	font-size: 0.85em;
 }
 
-footer img {
-	width: 50px;
-	height: 50px;
+.icona-social {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+/******************************* 
+ABOUT
+********************************/
+
+.foto-profilo {
+	display: block;
+	max-width: 200px;
+	margin: 0 auto 40px auto;
+	border-radius: 100%;
+}
+
+/******************************* 
+CONTACT
+********************************/
+
+#contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#contact-info a {
+	color: #000;
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px 0;
+}
+
+#contact-info li.phone a {
+	background-image: url(../img/phone.png)
+}
+
+#contact-info li.mail a {
+	background-image: url(../img/mail.png)
 }
